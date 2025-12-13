@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Movie Project</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <a class="navbar-brand" href="#about">About</a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item"><a class="nav-link" href="#showtimes">Showtimes</a></li>
+            <li class="nav-item"><a class="nav-link" href="#deals">Deals</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- ABOUT -->
+<section id="about">
+    <div class="jumbotron text-center mb-0">
+        <h1 class="display-4">Welcome to MovieTime</h1>
+        <p class="lead">Your place for movies and showtimes</p>
+        <a class="btn btn-info btn-lg" href="#showtimes">View Showtimes</a>
+    </div>
+</section>
+
+<!-- SHOWTIMES -->
+<section id="showtimes" class="container mt-5">
+    <h2 class="mb-4">Showtimes</h2>
+
+    <div class="card-deck">
+
+        <!-- MOVIE 1 -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/3/34/Kong_Skull_Island_poster.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Kong: Skull Island</h5>
+                <p class="card-text">Scientists explore an uncharted island where Kong rules.</p>
+                <span class="badge badge-pill badge-info">12:00 p.m.</span>
+                <span class="badge badge-pill badge-info">1:30 p.m.</span>
+                <span class="badge badge-pill badge-info">3:00 p.m.</span>
+                <span class="badge badge-pill badge-info">5:30 p.m.</span>
+                <span class="badge badge-pill badge-info">7:00 p.m.</span>
+                <span class="badge badge-pill badge-info">9:30 p.m.</span>
+            </div>
+        </div>
+
+        <!-- MOVIE 2 -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/1/11/Ghost_in_the_Shell_%282017_film%29.png" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Ghost in the Shell</h5>
+                <p class="card-text">A cyber-enhanced soldier fights cybercrime.</p>
+                <span class="badge badge-pill badge-info">12:00 p.m.</span>
+                <span class="badge badge-pill badge-info">1:30 p.m.</span>
+                <span class="badge badge-pill badge-info">3:00 p.m.</span>
+                <span class="badge badge-pill badge-info">5:30 p.m.</span>
+                <span class="badge badge-pill badge-info">7:00 p.m.</span>
+                <span class="badge badge-pill badge-info">9:30 p.m.</span>
+            </div>
+        </div>
+
+        <!-- MOVIE 3 -->
+        <div class="card">
+            <img src="https://upload.wikimedia.org/wikipedia/en/d/d6/Beauty_and_the_Beast_2017_poster.jpg" class="card-img-top">
+            <div class="card-body">
+                <h5 class="card-title">Beauty and the Beast</h5>
+                <p class="card-text">A prince must learn to love to break the curse.</p>
+                <span class="badge badge-pill badge-info">12:00 p.m.</span>
+                <span class="badge badge-pill badge-info">1:30 p.m.</span>
+                <span class="badge badge-pill badge-info">3:00 p.m.</span>
+                <span class="badge badge-pill badge-info">5:30 p.m.</span>
+                <span class="badge badge-pill badge-info">7:00 p.m.</span>
+                <span class="badge badge-pill badge-info">9:30 p.m.</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- DEALS -->
+<section id="deals" class="container mt-5 mb-5">
+    <h2>Deals</h2>
+    <p>Check back soon for special promotions.</p>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</body>
+</html>
